@@ -1,0 +1,37 @@
+.boton-fede {
+  background-color: lightgray;
+}
+
+.bg-fede-pasto {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-verde-hierba-falsa_53876-16313.jpg?w=740&t=st=1680746709~exp=1680747309~hmac=4dee94bc50b9e086522239301d2a06849f5e5e3c5eb545eddf271305c5fbf052);
+}
+
+.bg-fede-fondo-pared {
+  background-image: url(https://img.freepik.com/foto-gratis/texturas-pared-gris-fondo_74190-4389.jpg?w=740&t=st=1680747770~exp=1680748370~hmac=1b5c8ad3fbc5cc03c2ba1e443841bcaefcc0300cc8ec4839f86c82c410cc3588);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.font-fede-bold {
+  font-size: large;
+  font: bold;
+}
+
+.fondo-fede-hockey {
+  background-image: url(https://previews.123rf.com/images/cetkauskas/cetkauskas1904/cetkauskas190400084/123848827-pelota-de-hockey-con-hoyuelos-blancos-en-c%C3%A9sped-astro.jpg);
+}
+
+.logo-mediano {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-grande {
+  width: 120px;
+  height: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
