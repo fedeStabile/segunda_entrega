@@ -34,4 +34,8 @@
   height: 120px;
 }
 
+h1:hover {
+  color: grey;
+}
+
 /*# sourceMappingURL=style.css.map */
