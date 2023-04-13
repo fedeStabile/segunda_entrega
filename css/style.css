@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .boton-fede {
   background-color: lightgray;
 }
@@ -10,11 +11,6 @@
   background-image: url(https://img.freepik.com/foto-gratis/texturas-pared-gris-fondo_74190-4389.jpg?w=740&t=st=1680747770~exp=1680748370~hmac=1b5c8ad3fbc5cc03c2ba1e443841bcaefcc0300cc8ec4839f86c82c410cc3588);
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
-}
-
 .font-fede-bold {
   font-size: large;
   font: bold;
@@ -24,9 +20,64 @@
   background-image: url(https://previews.123rf.com/images/cetkauskas/cetkauskas1904/cetkauskas190400084/123848827-pelota-de-hockey-con-hoyuelos-blancos-en-c%C3%A9sped-astro.jpg);
 }
 
+.imagen-principal {
+  transition: 2s all;
+}
+
+.imagen-principal:hover {
+  scale: 1.1;
+}
+
+/*metemos estilo propio a los enlaces de la nav*/
+body div header div nav div a {
+  color: black !important;
+}
+
+body div header div nav div a:hover {
+  color: grey !important;
+  scale: 1.1;
+}
+
+/*Estilo para los textos, títulos y enlaces del footer*/
+h1:hover {
+  color: grey;
+}
+
+.footer-fede {
+  color: grey;
+}
+
+body div footer div a {
+  color: black;
+  text-decoration: none;
+}
+
+body div footer div a:hover {
+  color: grey;
+  scale: 1.1;
+}
+
+body div footer div a:active {
+  color: lightgray;
+}
+
+/*Un poco de Hover para los logos*/
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo:hover {
+  scale: 1.1;
+}
+
 .logo-mediano {
   width: 80px;
   height: 80px;
+}
+
+.logo-mediano:hover {
+  scale: 1.2;
 }
 
 .logo-grande {
@@ -34,8 +85,8 @@
   height: 120px;
 }
 
-h1:hover {
-  color: grey;
+.logo-grande:hover {
+  scale: 1.2;
 }
 
 /*# sourceMappingURL=style.css.map */
