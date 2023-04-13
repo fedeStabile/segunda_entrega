@@ -65,6 +65,7 @@ body div footer div a:active {
 .logo {
   width: 50px;
   height: 50px;
+  transition: 2s all;
 }
 
 .logo:hover {
@@ -74,6 +75,7 @@ body div footer div a:active {
 .logo-mediano {
   width: 80px;
   height: 80px;
+  transition: 2s all;
 }
 
 .logo-mediano:hover {
@@ -83,6 +85,7 @@ body div footer div a:active {
 .logo-grande {
   width: 120px;
   height: 120px;
+  transition: 2s all;
 }
 
 .logo-grande:hover {
